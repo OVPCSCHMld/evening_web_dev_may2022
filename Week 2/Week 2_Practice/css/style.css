@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans&display=swap');
+/* This is universal selector */
+
+*{
+margin:0;
+padding:0;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+background-color: bisque;
+}
+
+.container{
+
+    position:absolute;
+    border:3px solid purple;
+    color:red;
+    top:150px;
+    bottom:150px;
+    left:50px;
+
+}
+.container2{
+
+    position:relative;
+    border:3px solid green;
+    color:cornflowerblue;
+    top: 50px;
+    bottom:100px;
+    left: 70px;
+
+}
