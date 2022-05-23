@@ -9,7 +9,17 @@
 
 - Website Landing pages
 
+# Learning Through Games:
 
+# [CSS Diner](https://flukeout.github.io/)
+
+# [FlexBox Froggy](https://flexboxfroggy.com/)
+
+# More Reading in detail: 
+
+This website covers HTML and CSS core concepts in detail:
+
+# [Internetingishard](https://www.internetingishard.com/html-and-css/)
 
 Best wishes 🙇,
 
