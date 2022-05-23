@@ -12,6 +12,10 @@
   # Google Extentions
   
   https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?hl=en
+  
+  # Google Fonts
+  
+  https://fonts.google.com/
 
 # Learning Through Games:
 
