@@ -9,6 +9,10 @@
 
 - Website Landing pages
 
+  # Google Extentions
+  
+  https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?hl=en
+
 # Learning Through Games:
 
 # [CSS Diner](https://flukeout.github.io/)
