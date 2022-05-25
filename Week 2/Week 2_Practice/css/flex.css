@@ -1,0 +1,27 @@
+.fcontainer{
+border:2px solid green;
+height:600px;
+display:flex;
+/* flex-direction: row ; 
+ flex-direction: row-reverse;  */
+justify-content: center; 
+/* justify-content: flex-end; */
+/* align-items: center; */
+ /* flex-wrap: wrap;  */
+/* flex-flow:column wrap; */
+}
+
+.fitem{
+    background-color: rgba(255, 0, 0, 0.282);
+    border: 2px solid black;
+    margin:10px;
+    width:100px;
+    height:100px;
+}
+
+.item1{
+    align-self: center;
+}
+#five{
+    flex-grow: 2;
+}
