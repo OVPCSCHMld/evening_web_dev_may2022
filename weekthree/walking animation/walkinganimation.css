@@ -1,0 +1,48 @@
+body
+	{
+		background: url(images/10-modern-city-park-background-cartoon-clipart.jpg);
+		background-size: cover;
+		overflow: hidden;
+	}
+
+#man
+	{
+		position:absolute;
+		top: 285px;
+		background: url(images/1525205509.png); 
+		width :70px;
+		height: 150px;		
+		animation: walking_Man 1s steps(8) infinite,move_forward 20s linear infinite;	
+	}
+
+@keyframes walking_Man
+	{
+		0%{background-position: 0px;}
+		100%{background-position: 3000px;}
+	}
+
+@keyframes move_forward
+	{
+		0%{transform:translateX(-100px);}
+		100%{transform:translateX(1366px);}
+	}
+
+#girl{
+	position:relative;
+		top: 400px;
+		background: url(images/WalkingGirl2.png); 
+		width :150px;
+		height: 200px;		
+		animation: walking_girl 1s steps(4) infinite,move_forward 15s  infinite reverse;
+}
+@keyframes walking_girl
+	{
+		0%{background-position: 0px;}
+		100%{background-position: 3000px;}
+	}
+
+@keyframes move_forward
+	{
+		0%{transform:translateX(-100px);}
+		100%{transform:translateX(1366px);}
+	}
