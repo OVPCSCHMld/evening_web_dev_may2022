@@ -1,0 +1,73 @@
+body{
+    color:black;
+}
+.container{
+    border:2px solid blue;
+    /* display:inline; */
+    padding:auto;
+}
+.animatebox{
+  align-items: center;
+  background-color: chocolate;
+  color:antiquewhite;
+  padding: auto;
+  width:200px;
+  height:300px;
+   animation-name: boxchange;
+   animation-duration: 4s;
+   animation-iteration-count:infinite;
+   animation-delay: 0s;
+}
+
+/* @keyframes boxchange{
+
+from{
+    background-color: chocolate;
+}
+to{
+    background-color: aqua;
+    width:300px;
+}
+
+} */
+.animatebox1{
+    align-items: center;
+    background-color: rgb(30, 210, 114);
+    color:antiquewhite;
+    padding: auto;
+    width:200px;
+    height:300px;
+    animation:boxchange2 0.5s infinite;
+
+  }
+  
+/* @keyframes boxchange2{
+
+    100%{
+        transform: translate(50px,100px);}
+} */
+
+@keyframes boxchange2{
+
+    100%{
+        transform: rotate(360deg);}
+}
+
+
+
+@keyframes boxchange{
+
+0%{
+    background-color:black;
+}
+50%{
+    background-color: aqua;
+    width:300px;
+    height: 400px;
+}
+100%{
+    background-color: aliceblue;
+    width:200px;
+}
+
+}
